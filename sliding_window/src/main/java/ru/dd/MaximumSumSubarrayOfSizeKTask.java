@@ -11,6 +11,7 @@ package ru.dd;
  * Output: 7
  * Explanation: Subarray with maximum sum is [3, 4].
  */
+//EASY
 public class MaximumSumSubarrayOfSizeKTask {
 
     public static void main(String[] args) {
