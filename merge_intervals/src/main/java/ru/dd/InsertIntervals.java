@@ -35,7 +35,7 @@ public class InsertIntervals {
         }
     }
 
-    public static List<Interval> insert(List<Interval> intervals, Interval newInterval) {
+    public static List<InsertIntervals.Interval> insert(List<InsertIntervals.Interval> intervals, InsertIntervals.Interval newInterval) {
         List<Interval> mergedIntervals = new LinkedList<>();
 
         //Intervals=[[1,3], [5,7], [8,12]], New Interval=[4,6]
