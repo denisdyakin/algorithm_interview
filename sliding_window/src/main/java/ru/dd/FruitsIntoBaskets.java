@@ -38,7 +38,6 @@ public class FruitsIntoBaskets {
         int right = 0;
 
         //счетчик деревьев
-        int treeCount = 0;
         int basketsNumber = 2;
 
         Map<Character, Integer> charCounter = new HashMap<>();
