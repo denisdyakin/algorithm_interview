@@ -25,16 +25,6 @@ import java.util.*;
 //MEDIUM
 public class MergeIntervals {
 
-    static class Interval {
-        int start;
-        int end;
-
-        public Interval(int start, int end) {
-            this.start = start;
-            this.end = end;
-        }
-    }
-
     public static List<Interval> merge(List<Interval> intervals) {
         List<Interval> mergedIntervals = new LinkedList<>();
 
