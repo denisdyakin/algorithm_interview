@@ -4,6 +4,7 @@ package ru.dd;
  *Given the head of a Singly LinkedList,
  * write a function to determine if the LinkedList has a cycle in it or not.
  */
+//EASY
 public class FastSlowLinkedListCycle {
 
     public static boolean hasCycle(ListNode head) {

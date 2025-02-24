@@ -4,6 +4,7 @@ package ru.dd;
  * Given the head of a Singly LinkedList that contains a cycle,
  * write a function to find the starting node of the cycle.
  */
+//MEDIUM
 public class FastSlowStartOfLinkedListCycleTask {
 
     public static ListNode findStart(ListNode head) {
