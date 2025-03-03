@@ -10,6 +10,10 @@ public class Interval {
         this.end = end;
     }
 
+    public static Interval of(int start, int end) {
+        return new Interval(start, end);
+    }
+
     @Override
     public String toString() {
         return "Interval{" +
